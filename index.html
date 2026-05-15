@@ -3,66 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BS PAY - Formulário de Cadastro</title>
-    <meta name="description" content="Preencha o formulário para criar sua conta na BS PAY.">
+    <title>BS PAY - Conectando...</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="background-glow"></div>
     <div class="background-glow glow-2"></div>
     
-    <main class="container">
-        <form id="leadForm" class="glass-form">
-            <div class="form-header">
-                <p>Preencha os dados abaixo para darmos o próximo passo.</p>
-            </div>
-
-            <div class="input-group">
-                <input type="text" id="name" required placeholder=" ">
-                <label for="name">Nome completo</label>
-            </div>
-
-            <div class="input-group">
-                <input type="tel" id="whatsapp" required placeholder=" ">
-                <label for="whatsapp">WhatsApp</label>
-            </div>
-
-            <div class="input-group select-group">
-                <select id="niche" required>
-                    <option value="" disabled selected>Selecione seu nicho</option>
-                    <option value="igaming">iGaming</option>
-                    <option value="mercado-financeiro">Mercado Financeiro</option>
-                    <option value="infoprodutos">Infoprodutos</option>
-                    <option value="white-labels">White Labels</option>
-                    <option value="ecommerce-high-risk">E-commerce High Risk</option>
-                    <option value="exchanges">Exchanges</option>
-                    <option value="saas">SaaS</option>
-                    <option value="outro">Outro</option>
-                </select>
-                <div class="select-arrow"></div>
-                <label for="niche" class="active-label">Nicho de Atuação</label>
-            </div>
-
-            <button type="submit" class="submit-btn">
-                <span>Avançar</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M12 5L19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </button>
-        </form>
-    </main>
-
-    <!-- Loading Overlay -->
-    <div id="loadingOverlay" class="loading-overlay">
+    <main class="container" style="text-align: center;">
         <div class="loader-container">
             <div class="glow-ball"></div>
-            <p>Conectando ao suporte...</p>
+            <p class="loading-text">Redirecionando...</p>
         </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
